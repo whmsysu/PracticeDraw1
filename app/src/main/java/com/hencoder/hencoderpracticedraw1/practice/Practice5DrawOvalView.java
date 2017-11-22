@@ -33,7 +33,7 @@ public class Practice5DrawOvalView extends View {
         Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.FILL);
-        canvas.drawOval(450,300,950,600, paint);
+        canvas.drawOval(450,300,950,550, paint);
 
     }
 }

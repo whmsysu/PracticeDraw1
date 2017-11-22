@@ -33,6 +33,6 @@ public class Practice7DrawRoundRectView extends View {
         Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.FILL);
-        canvas.drawRoundRect(400, 400, 900, 650, 50, 50, paint);
+        canvas.drawRoundRect(500, 400, 950, 620, 50, 50, paint);
     }
 }

@@ -46,7 +46,7 @@ public class Practice10HistogramView extends View {
         float width = 100;// 直方图的宽
         float[] nums = {0,20,20,200,400,500,200};
         String[] names = {"Froyo","GB","ICS","JB", "KitKat", "L", "M"};
-        paint.setColor(Color.GREEN);
+        paint.setColor(Color.rgb(34, 139, 34));
         float cordinateX = 200 + interval;
         for (int i=0;i<nums.length;i++){
             canvas.drawRect(cordinateX, 600 - nums[i], cordinateX + width , 600, paint);

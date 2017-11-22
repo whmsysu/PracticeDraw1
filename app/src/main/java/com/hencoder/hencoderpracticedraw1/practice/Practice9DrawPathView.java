@@ -32,9 +32,9 @@ public class Practice9DrawPathView extends View {
 //        练习内容：使用 canvas.drawPath() 方法画心形
         Paint paint = new Paint();
         Path path = new Path();
-        path.addArc(600,200,750,350,-200,200);
-        path.arcTo(750,200,900,350,-180,200,false);
-        path.lineTo(750, 450);// 向目标位置画直线
+        path.addArc(600, 200, 800, 400, -225, 225);
+        path.arcTo(800, 200, 1000, 400, -180, 225, false);
+        path.lineTo(800, 542);
         canvas.drawPath(path, paint);
     }
 }

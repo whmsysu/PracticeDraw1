@@ -29,7 +29,7 @@ public class Practice6DrawLineView extends View {
 //        练习内容：使用 canvas.drawLine() 方法画直线
         Paint paint = new Paint();
         paint.setColor(Color.BLACK);
-        paint.setStrokeWidth(20);
-        canvas.drawLine(400, 400, 800, 800, paint);
+        paint.setStrokeWidth(10);
+        canvas.drawLine(400, 400, 900, 730, paint);
     }
 }

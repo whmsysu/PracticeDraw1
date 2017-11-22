@@ -39,7 +39,7 @@ public class Practice2DrawCircleView extends View {
         canvas.drawCircle(950, 225, 225, paint);
         //Third circle
         paint.setStyle(Paint.Style.FILL);
-        paint.setColor(Color.BLUE);
+        paint.setColor(Color.rgb(65, 105, 225));
         canvas.drawCircle(450,700, 225, paint);
 
         //Forth circle
