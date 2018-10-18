@@ -10,6 +10,8 @@ import android.view.View;
 
 public class Practice6DrawLineView extends View {
 
+    private Paint paint = new Paint();
+
     public Practice6DrawLineView(Context context) {
         super(context);
     }
@@ -27,7 +29,6 @@ public class Practice6DrawLineView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawLine() 方法画直线
-        Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setStrokeWidth(10);
         canvas.drawLine(400, 400, 900, 730, paint);

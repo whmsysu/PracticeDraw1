@@ -12,6 +12,8 @@ import android.view.View;
 
 public class Practice5DrawOvalView extends View {
 
+    private Paint paint = new Paint();
+
     public Practice5DrawOvalView(Context context) {
         super(context);
     }
@@ -30,7 +32,6 @@ public class Practice5DrawOvalView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawOval() 方法画椭圆
-        Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.FILL);
         canvas.drawOval(450,300,950,550, paint);

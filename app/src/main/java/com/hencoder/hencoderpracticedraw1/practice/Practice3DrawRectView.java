@@ -10,6 +10,8 @@ import android.view.View;
 
 public class Practice3DrawRectView extends View {
 
+    private Paint paint = new Paint();
+
     public Practice3DrawRectView(Context context) {
         super(context);
     }
@@ -27,7 +29,6 @@ public class Practice3DrawRectView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawRect() 方法画矩形
-        Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         canvas.drawRect(500, 200, 950, 650, paint);
     }

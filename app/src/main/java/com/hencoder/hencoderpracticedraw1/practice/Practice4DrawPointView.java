@@ -10,6 +10,8 @@ import android.view.View;
 
 public class Practice4DrawPointView extends View {
 
+    private Paint paint = new Paint();
+
     public Practice4DrawPointView(Context context) {
         super(context);
     }
@@ -29,7 +31,7 @@ public class Practice4DrawPointView extends View {
 //        练习内容：使用 canvas.drawPoint() 方法画点
 //        一个圆点，一个方点
 //        圆点和方点的切换使用 paint.setStrokeCap(cap)：`ROUND` 是圆点，`BUTT` 或 `SQUARE` 是方点
-        Paint paint = new Paint();
+
         // First round point
         paint.setColor(Color.BLACK);
         paint.setStrokeWidth(100);

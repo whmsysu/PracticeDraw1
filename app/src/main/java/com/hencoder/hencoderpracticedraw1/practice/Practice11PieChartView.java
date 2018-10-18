@@ -34,7 +34,6 @@ public class Practice11PieChartView extends View {
 
 //        综合练习
 //        练习内容：使用各种 Canvas.drawXXX() 方法画饼
-        Paint paint = new Paint();
         paint.setColor(Color.RED);
         canvas.drawArc(300, 100, 1000, 700, -180, 120, true, paint);
 

@@ -12,6 +12,8 @@ import android.view.View;
 
 public class Practice7DrawRoundRectView extends View {
 
+    private Paint paint = new Paint();
+
     public Practice7DrawRoundRectView(Context context) {
         super(context);
     }
@@ -30,7 +32,6 @@ public class Practice7DrawRoundRectView extends View {
         super.onDraw(canvas);
 
 //        练习内容：使用 canvas.drawRoundRect() 方法画圆角矩形
-        Paint paint = new Paint();
         paint.setColor(Color.BLACK);
         paint.setStyle(Paint.Style.FILL);
         canvas.drawRoundRect(500, 400, 950, 620, 50, 50, paint);

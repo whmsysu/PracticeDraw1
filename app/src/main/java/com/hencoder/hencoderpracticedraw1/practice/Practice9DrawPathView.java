@@ -12,6 +12,9 @@ import android.view.View;
 
 public class Practice9DrawPathView extends View {
 
+    private Paint paint = new Paint();
+    private Path path = new Path();
+
     public Practice9DrawPathView(Context context) {
         super(context);
     }
@@ -28,10 +31,7 @@ public class Practice9DrawPathView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
 //        练习内容：使用 canvas.drawPath() 方法画心形
-        Paint paint = new Paint();
-        Path path = new Path();
         path.addArc(600, 200, 800, 400, -225, 225);
         path.arcTo(800, 200, 1000, 400, -180, 225, false);
         path.lineTo(800, 542);

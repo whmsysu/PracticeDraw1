@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 public class Practice10HistogramView extends View {
+
     private Paint paint = new Paint();
 
     public Practice10HistogramView(Context context) {
